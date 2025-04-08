@@ -1,0 +1,75 @@
+colvarsTrajFrequency 50000
+colvarsRestartFrequency 50000
+units gromacs
+indexFile ../common/index_abf.ndx
+
+colvar {
+	name ProjectionZ
+
+	width 0.02
+ 
+	lowerBoundary -0.1
+	upperBoundary 1.1
+
+	outputValue yes
+    	outputAppliedForce yes
+    	outputTotalForce yes
+	
+		distanceZ {
+			ref {
+				indexGroup P
+			}
+			main {
+				atomNumbers { 21797 }
+			}
+		forceNoPBC yes
+		}
+
+	extendedLagrangian on
+	extendedFluctuation 0.01
+	extendedTimeConstant 200
+
+}
+
+colvar {
+	name restrain01
+	width 0.02
+
+	lowerBoundary 0
+	upperBoundary 1
+
+	distanceXY {
+			ref {
+				indexGroup C-alpha
+			}
+			main {
+				atomNumbers { 21797 }
+			}
+
+	}
+
+}
+
+harmonicWalls {              
+    colvars           ProjectionZ              
+    lowerWalls        -0.1     
+    upperWalls        1.1  
+    lowerWallConstant 17.0                  
+    upperWallConstant 17.0                  
+}
+
+harmonicWalls {              
+    colvars           restrain01              
+    lowerWalls        0     
+    upperWalls        1 
+    lowerWallConstant 17.0                  
+    upperWallConstant 17.0                  
+}
+
+
+abf {
+	colvars ProjectionZ
+	fullSamples 2000
+	historyFreq 50000
+	writeCZARwindowFile yes
+}
