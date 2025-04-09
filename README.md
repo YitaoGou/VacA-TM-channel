@@ -5,6 +5,7 @@
 * `1_32.pdb`: the 1-32 monomer helix predicted from AF2.
 * `range.tcl`: the parameter range for modeling the VacA channel candidates.
 
+> Procedure of modeling TM channel candidates:
 1. `vmd dispdev text -e 1_32_center_alongZ.tcl`
 2. `vmd dispdev text -e channel_build.tcl`
 3. `vmd dispdev text -e merge.tcl`
