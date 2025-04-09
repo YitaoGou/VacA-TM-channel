@@ -12,7 +12,7 @@
 
 ## [A stable VacA channel that sustains water permeation](./02-VacA-model)
 
-* `VacA_channel1_32`: the final VacA hexameric TM channel;
+* `VacA_channel1_32.pdb`: the final VacA hexameric TM channel;
 
 #### MD simulations
 
@@ -40,7 +40,7 @@
 
 ## [The anion selectivity of VacA TM channel](./04-anion-selectivity)
 
-* `VacA_channel1_46`: the VacA hexameric TM channel with residue 1-46.
+* `VacA_channel1_46.pdb`: the VacA hexameric TM channel with residue 1-46.
 
 #### E-field simulations with an applied electric field
 
