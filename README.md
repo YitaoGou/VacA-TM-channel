@@ -1,6 +1,6 @@
 # VacA
 
-## [The 1sew, extended 1sew and AF2 models](./00-1sew-AF)
+## [The 1sew, extended 1sew and AF models](./00-1sew-AF)
 
 - `./1sew/initial.gro`: initial structure file of 1sew. (after energy minimization and equilibrations).
 - `./extended_1sew/initial.gro`: initial structure file of extended 1sew. (after energy minimization and equilibrations).
