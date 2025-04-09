@@ -1,5 +1,13 @@
 # VacA
 
+## [The 1sew, extended 1sew and AF2 models](./00-1sew-AF)
+
+- `./1sew/initial.gro`: initial structure file of 1sew. (after energy minimization and equilibrations).
+- `./extended_1sew/initial.gro`: initial structure file of extended 1sew. (after energy minimization and equilibrations).
+- `./AF2/af2-rnaki.pdb`: Top i models of the hexameric VacA TM channel predicted by AF2.
+- `./AF3/fold_vaca_1_32_hexamer_model_i.cif`: Top i models of the hexameric VacA TM channel predicted by AF3.
+  
+
 ## [Modeling VacA channel by conformational scan and MD simulations](./01-modeling)
 
 * `1_32.pdb`: the 1-32 monomer helix predicted from AF2.
@@ -18,8 +26,9 @@
 
 #### MD simulations
 
-* `./input`: input files for MD simulations.
-* `./cluster/cluster1_runi.pdb` centroid protein structure of the top cluster from the ith simulation replica.
+- `./input`: input files for MD simulations.
+  - `./input/initial.gro`: initial structure file of xxx. (after energy minimization and equilibrations).
+- `./cluster/cluster1_runi.pdb` centroid protein structure of the top cluster from the ith simulation replica.
 
 ## [Validation of the VacA TM channel model by in silico mutagenesis](./03-mutagenesis)
 
@@ -36,9 +45,9 @@
 
 #### MD simulations
 
-* `./input`: input files for MD simulations.
-* `./input/initial.gro`: initial structure file of xxx. (after energy minimization and equilibrations).
-* `./cluster/cluster1_runi.pdb` centroid protein structure of the top cluster from the ith simulation replica.
+- `./input`: input files for MD simulations.
+  - `./input/initial.gro`: initial structure file of xxx. (after energy minimization and equilibrations).
+- `./cluster/cluster1_runi.pdb` centroid protein structure of the top cluster from the ith simulation replica.
 
 ## [The anion selectivity of VacA TM channel](./04-anion-selectivity)
 
