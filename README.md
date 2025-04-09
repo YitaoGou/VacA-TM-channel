@@ -2,8 +2,8 @@
 
 ## [Modeling VacA channel by conformational scan and MD simulations](./01-modeling)
 
-* `1_32.pdb`: the 1-32 monomer helix predicted from AF2;
-* `range.tcl`: the parameter range for modeling the VacA channel candidates;
+* `1_32.pdb`: the 1-32 monomer helix predicted from AF2.
+* `range.tcl`: the parameter range for modeling the VacA channel candidates.
 
 1. `vmd dispdev text -e 1_32_center_alongZ.tcl`
 2. `vmd dispdev text -e channel_build.tcl`
@@ -12,7 +12,7 @@
 
 ## [A stable VacA channel that sustains water permeation](./02-VacA-model)
 
-* `VacA_channel1_32.pdb`: the final VacA hexameric TM channel;
+* `VacA_channel1_32.pdb`: the final VacA hexameric TM channel.
 
 #### MD simulations
 
@@ -35,7 +35,7 @@
 #### MD simulations
 
 * `./input`: input files for MD simulations.
-* `./input/initial.gro`: initial structure file of xxx. (after energy minimization and equilibrations)
+* `./input/initial.gro`: initial structure file of xxx. (after energy minimization and equilibrations).
 * `./cluster/cluster1_runi.pdb` centroid protein structure of the top cluster from the ith simulation replica.
 
 ## [The anion selectivity of VacA TM channel](./04-anion-selectivity)
