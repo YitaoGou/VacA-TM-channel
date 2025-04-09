@@ -69,3 +69,12 @@
 * `get-premWAT.tcl`: Tracking the water flow across the channel.
 * `get-conductCLA.tcl`: Tracking the conducted chloride ions across the channel.
 * `get-conductSOD.tcl`: Tracking the conducted sodium ions across the channel.
+
+* `count_sb.tcl`: count salt bridges between two given groups.
+* `sb_prob_resi.m` analysis of salt bridge probabilities for each residue.
+<!--* The following analysis were processed using GROMACS:
+  - RMSD: `gmx rmsd`
+  - RMSF: `gmx rmsf`
+  - hydrogen bond: `gmx hbond`
+  - buried area: `gmx sasa`
+-->
