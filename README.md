@@ -72,6 +72,7 @@
 
 ## [Stabilization of the TM channel by non-transmembrane segment of VacA](./05-VacA-1-422)
 
+* `model-missing-residues.py`:  Python script to predict residues 38-45 and 300-334 by Modeller.
 * `VacA1_422-angle0.pdb`: VacA 1-422 model with rotation angle (*θ* = 0°) of the flower-shaped VacA body relative to its TM channel.
 * `VacA1_422-angle-30.pdb`: VacA 1-422 model with rotation angle (*θ* = -30°) of the flower-shaped VacA body relative to its TM channel.
 * `VacA1_422-angle-40.pdb`: VacA 1-422 model with rotation angle (*θ* = -40°) of the flower-shaped VacA body relative to its TM channel.
