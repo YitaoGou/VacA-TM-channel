@@ -12,7 +12,8 @@
 
 ## [A stable VacA channel that sustains water permeation](./02-VacA-model)
 
-* `VacA_channel1_32.pdb`: the final VacA hexameric TM channel.
+* `symm.tcl`: C6 rotational symmetrization.
+* `VacA_channel1_32.pdb`: the final VacA hexameric TM channel, after energy minimization.
 
 #### MD simulations
 
