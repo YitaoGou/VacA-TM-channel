@@ -2,15 +2,15 @@
 
 ## [The 1sew, extended 1sew and AF models](./00-1sew-AF)
 
-- `./1sew/initial.gro`: initial structure file of 1sew. (after energy minimization and equilibrations).
-- `./extended_1sew/initial.gro`: initial structure file of extended 1sew. (after energy minimization and equilibrations).
+- `./1sew/initial.gro`: initial simulation structure of 1sew (after energy minimization and equilibrations).
+- `./extended_1sew/initial.gro`: initial simulation structure of extended 1sew (after energy minimization and equilibrations).
 - `./AF2/af2-ranki.pdb`: Top i models of the hexameric VacA TM channel predicted by AF2.
 - `./AF3/fold_vaca_1_32_hexamer_model_i.cif`: Top i models of the hexameric VacA TM channel predicted by AF3.
   
 
 ## [Modeling VacA channel by conformational scan and MD simulations](./01-modeling)
 
-* `1_32.pdb`: the 1-32 monomer helix predicted from AF2.
+* `1_32.pdb`: the 1-32 monomeric helix predicted from AF2.
 * `range.tcl`: the parameter range for modeling the VacA channel candidates.
 
 > Procedure of modeling TM channel candidates:
