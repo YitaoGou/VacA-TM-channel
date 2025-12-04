@@ -15,9 +15,7 @@
 
 > Procedure of modeling TM channel candidates:
 1. `vmd dispdev text -e 1_32_center_alongZ.tcl`
-2. `vmd dispdev text -e channel_build.tcl`
-3. `vmd dispdev text -e merge.tcl`
-4. `vmd dispdev text -e Mresid.tcl`
+2. `vmd dispdev text -e build.tcl`
 
 ## [A stable VacA channel that sustains water permeation](./02-VacA-model)
 
