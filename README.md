@@ -28,7 +28,7 @@
   - `./input/initial.gro`: initial structure file of xxx. (after energy minimization and equilibrations).
 - `./cluster/cluster1_runi.pdb` centroid protein structure of the top cluster from the ith simulation replica.
 
-## [Validation of the VacA TM channel model by *in *silico mutagenesis](./03-mutagenesis)
+## [Validation of the VacA TM channel model by *in silico* mutagenesis](./03-mutagenesis)
 
 #### In silico mutagenesis validation
 * [P9A](./03-mutagenesis/1-P9A)
@@ -74,6 +74,8 @@
 * `VacA1_422-angle0.pdb`: VacA 1-422 model with rotation angle (*θ* = 0°) of the flower-shaped VacA body relative to its TM channel.
 * `VacA1_422-angle-30.pdb`: VacA 1-422 model with rotation angle (*θ* = -30°) of the flower-shaped VacA body relative to its TM channel.
 * `VacA1_422-angle-40.pdb`: VacA 1-422 model with rotation angle (*θ* = -40°) of the flower-shaped VacA body relative to its TM channel.
+
+## [Proton leakage by the VacA TM Channel​]
 
 ## [Analysis](./Analysis)
 * `get-premWAT.tcl`: Tracking the water flow across the channel.
