@@ -75,7 +75,10 @@
 * `VacA1_422-angle-30.pdb`: VacA 1-422 model with rotation angle (*θ* = -30°) of the flower-shaped VacA body relative to its TM channel.
 * `VacA1_422-angle-40.pdb`: VacA 1-422 model with rotation angle (*θ* = -40°) of the flower-shaped VacA body relative to its TM channel.
 
-## [Proton leakage by the VacA TM Channel​]
+## [Proton leakage by the VacA TM Channel​](./06-proton-leakage)
+
+* `wat_in_pore_order.tcl`: water order parameter calculation.
+* `p1_boxchart.m`: Aggregates water order parameter data from multiple simulation replicas to compute and visualize its spatial distribution along the TM pore's Z-axis using a box chart.
 
 ## [Analysis](./Analysis)
 * `get-premWAT.tcl`: Tracking the water flow across the channel.
