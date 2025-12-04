@@ -31,8 +31,7 @@
 ## [Validation of the VacA TM channel model by *in silico* mutagenesis](./03-mutagenesis)
 
 #### In silico mutagenesis validation
-* [P9A](./03-mutagenesis/1-P9A)
-* [G13A](./03-mutagenesis/02-G13A)
+* [P9A](./03-mutagenesis/1-P9A), [G13A](./03-mutagenesis/02-G13A)
 * [G14A](./03-mutagenesis/03-G14A)
 * [T17A](./03-mutagenesis/04-T17A)
 * [G18A](./03-mutagenesis/05-G18A)
