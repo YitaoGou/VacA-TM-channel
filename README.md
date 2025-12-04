@@ -30,7 +30,7 @@
 
 ## [Validation of the VacA TM channel model by *in silico* mutagenesis](./03-mutagenesis)
 
-#### In silico mutagenesis validation
+#### *In silico* mutagenesis validation
 * [P9A](./03-mutagenesis/1-P9A), [G13A](./03-mutagenesis/02-G13A), [G14A](./03-mutagenesis/03-G14A), [T17A](./03-mutagenesis/04-T17A), [G18A](./03-mutagenesis/05-G18A),
   [V21L](./03-mutagenesis/06-V21L), [G22A](./03-mutagenesis/07-G22A), [S25L](./03-mutagenesis/08-S25L), [G26A](./03-mutagenesis/09-G26A)
 
@@ -46,7 +46,7 @@
 
 #### E-field simulations with an applied electric field
 
-* `./input`: input files for MD simulations.
+* `./E-field/input`: input files for MD simulations.
 
 #### Free energy calculation through eABF
 * A stratification strategy used:
@@ -55,11 +55,11 @@
   * win3:  -1 ≤ *z* ≤ 11 Å;
   * win4:   9 ≤ *z* ≤ 31 Å;
   * win5:  29 ≤ *z* ≤ 48 Å;
-* `./Cl-(Na+)/win*/colvars.dat`: parameters of the eABF in the Colvars-patched GROMACS-2022.6.
-* `./Cl-(Na+)/win*/abf_initial.gro`: initial structure of eABF in specific windows.
+* `./eABF/Cl-(Na+)/win*/colvars.dat`: parameters of the eABF in the Colvars-patched GROMACS-2022.6.
+* `./eABF/Cl-(Na+)/win*/abf_initial.gro`: initial structure of eABF in specific windows.
   
-* `./Cl-(Na+)/result/pmf.dat`: the raw PMF for Cl-/Na+.
-* `./Cl-(Na+)/result/pmf-interp.dat`: the PMF for Cl-/Na+ after imposing the condition 𝑤(-40)=𝑤(48)=0 through linear interpolation.
+* `./eABF/Cl-(Na+)/result/pmf.dat`: the raw PMF for Cl-/Na+.
+* `./eABF/Cl-(Na+)/result/pmf-interp.dat`: the PMF for Cl-/Na+ after imposing the condition 𝑤(-40)=𝑤(48)=0 through linear interpolation.
 
 ## [Stabilization of the TM channel by non-transmembrane segment of VacA](./05-VacA-1-422)
 
