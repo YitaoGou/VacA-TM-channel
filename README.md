@@ -1,4 +1,4 @@
-# VacA
+# Supplementary Information for Functional Structure of the Transmembrane Channel from the Vacuolating Toxin of Helicobacter pylori
 
 ## [The 1sew, extended 1sew and AF models](./00-1sew-AF)
 
@@ -17,7 +17,7 @@
 1. `vmd dispdev text -e 1_32_center_alongZ.tcl`
 2. `vmd dispdev text -e build.tcl`
 
-## [A stable VacA channel that sustains water permeation](./02-VacA-model)
+## [A stable VacA channel that sustains rapid water permeation](./02-VacA-model)
 
 * `symm.tcl`: C6 rotational symmetrization.
 * `VacA_channel1_32.pdb`: the final VacA hexameric TM channel, after energy minimization.
@@ -28,7 +28,7 @@
   - `./input/initial.gro`: initial structure file of xxx. (after energy minimization and equilibrations).
 - `./cluster/cluster1_runi.pdb` centroid protein structure of the top cluster from the ith simulation replica.
 
-## [Validation of the VacA TM channel model by in silico mutagenesis](./03-mutagenesis)
+## [Validation of the VacA TM channel model by *in *silico mutagenesis](./03-mutagenesis)
 
 #### In silico mutagenesis validation
 * [P9A](./03-mutagenesis/1-P9A)
