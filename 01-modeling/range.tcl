@@ -9,7 +9,8 @@ set n 6;  #hexamer
 set rotz_begin 0;
 set rotz_end 350;
 set rotz_incr 20;
-set rotxx {-20 -25 -30 -35 -40 -45};
+set rotxx {-20 -25 -30 -35 -40 -45 20 25 30 35 40 45};
+# negative rotxx for right-handed helical bundles; positive rotxx for left-handed helical bundles
 
 
 #from r_begin --- r_begin + r_radio * ri_end

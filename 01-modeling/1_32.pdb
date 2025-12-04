@@ -1,5 +1,5 @@
 MODEL     1
-##cut 1-32 from predicted 1-45 monomer by AlphaFold2                                                                       
+##cut 1-32 from predicted 1-45 by AlphaFold2                                                                       
 ATOM      1  N   ALA A   1      23.449   6.356 -21.272  1.00 86.76           N  
 ATOM      2  CA  ALA A   1      23.440   5.045 -20.626  1.00 86.76           C  
 ATOM      3  C   ALA A   1      22.955   5.149 -19.183  1.00 86.76           C  

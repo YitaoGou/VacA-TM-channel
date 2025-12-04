@@ -1,4 +1,4 @@
-
+##1_26 pre-inserted into POPC cluster1.pdb
 mol load pdb 1_32.pdb
 
 
