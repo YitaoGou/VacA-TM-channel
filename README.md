@@ -74,6 +74,7 @@
 
 ## [Proton leakage by the VacA TM Channel​](./06-proton-leakage)
 
+* `Dye_leakage_assay.xlsx`: The relative fluorescence in dye leakage assays.
 * `set1_a_150mMNaCl.xlsx`: The relative fluorescence in proton transport assays (with 150 mM NaCl).
 * `set1_b_withoutNaCl.xlsx`: The relative fluorescence in proton transport assays (without 150 mM NaCl).
 
