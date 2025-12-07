@@ -55,6 +55,10 @@
   * win3:  -1 ≤ *z* ≤ 11 Å;
   * win4:   9 ≤ *z* ≤ 31 Å;
   * win5:  29 ≤ *z* ≤ 48 Å;
+
+* `./eABF/Cl-(Na+)/common/abf_res.mdp`: MD parameters for eABF.
+* `./eABF/Cl-(Na+)/common/index_abf.idx`: index files used in eABF.
+
 * `./eABF/Cl-(Na+)/win*/colvars.dat`: parameters of the eABF in the Colvars-patched GROMACS-2022.6.
 * `./eABF/Cl-(Na+)/win*/abf_initial.gro`: initial structure of eABF in specific windows.
   
@@ -70,16 +74,10 @@
 
 ## [Proton leakage by the VacA TM Channel​](./06-proton-leakage)
 
-* `wat_in_pore_order.tcl`: water order parameter calculation.
-* `p1_boxchart.m`: Aggregates water order parameter data from multiple simulation replicas to compute and visualize its spatial distribution along the TM pore's Z-axis using a box chart.
+* `set1_a_150mMNaCl.xlsx`: The relative fluorescence in proton transport assays (with 150 mM NaCl).
+* `set1_b_withoutNaCl.xlsx`: The relative fluorescence in proton transport assays (without 150 mM NaCl).
 
-## [Analysis](./Analysis)
-* `get-premWAT.tcl`: Tracking the water flow across the channel.
-* `get-conductCLA.tcl`: Tracking the conducted chloride ions across the channel.
-* `get-conductSOD.tcl`: Tracking the conducted sodium ions across the channel.
 
-* `count_sb.tcl`: count salt bridges between two given groups.
-* `sb_prob_resi.m` analysis of salt bridge probabilities for each residue.
 <!--* The following analysis were processed using GROMACS:
   - RMSD: `gmx rmsd`
   - RMSF: `gmx rmsf`
