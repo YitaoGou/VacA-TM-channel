@@ -1,4 +1,4 @@
-# Supplementary Information for Functional Structure of the Transmembrane Channel from the Vacuolating Toxin of Helicobacter pylori
+# Supplementary Information for Functional Structure of the Transmembrane Channel from the Vacuolating Toxin of *Helicobacter pylori*
 
 ## [The 1sew, extended 1sew and AF models](./00-1sew-AF)
 
