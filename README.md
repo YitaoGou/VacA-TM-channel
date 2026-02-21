@@ -50,7 +50,7 @@
 
 #### Free energy calculation through eABF
 * A stratification strategy used:
-  * win1: -40 ≤ *z* ≤  9 Å;
+  * win1: -40 ≤ *z* ≤ -9 Å;
   * win2: -11 ≤ *z* ≤  1 Å;
   * win3:  -1 ≤ *z* ≤ 11 Å;
   * win4:   9 ≤ *z* ≤ 31 Å;
