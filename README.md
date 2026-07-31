@@ -4,8 +4,8 @@
 
 - `./1sew/initial.gro`: initial simulation structure of 1sew (after energy minimization and equilibrations).
 - `./extended_1sew/initial.gro`: initial simulation structure of extended 1sew (after energy minimization and equilibrations).
-- `./AF2/af2-ranki.pdb`: Top i models of the hexameric VacA TM channel predicted by AF2.
-- `./AF3/fold_vaca_1_32_hexamer_model_i.cif`: Top i models of the hexameric VacA TM channel predicted by AF3.
+- `./AF-M/afm-model_i.pdb`: Model i of the hexameric VacA TM channel (residues 1-32) predicted by AF2.
+- `./AF3/fold_vaca_1_32_hexamer_model_i.cif`: Model i of the hexameric VacA TM channel (residues 1-32) predicted by AF3.
   
 
 ## [Modeling VacA channel by conformational scan and MD simulations](./01-modeling)
