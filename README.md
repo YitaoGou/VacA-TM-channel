@@ -50,11 +50,11 @@
 
 #### Free energy calculation through eABF
 * A stratification strategy used:
-  * win1: -40 ≤ *z* ≤ -9 Å;
-  * win2: -11 ≤ *z* ≤  1 Å;
-  * win3:  -1 ≤ *z* ≤ 11 Å;
-  * win4:   9 ≤ *z* ≤ 31 Å;
-  * win5:  29 ≤ *z* ≤ 48 Å;
+  * win1: -47 ≤ *z* ≤ -20 Å;
+  * win2: -22 ≤ *z* ≤  -6 Å;
+  * win3:  -8 ≤ *z* ≤ 8 Å;
+  * win4:   6 ≤ *z* ≤ 22 Å;
+  * win5:  20 ≤ *z* ≤ 47 Å;
 
 * `./eABF/Cl-(Na+)/common/abf_res.mdp`: MD parameters for eABF.
 * `./eABF/Cl-(Na+)/common/index_abf.idx`: index files used in eABF.
@@ -74,10 +74,11 @@
 
 ## [Proton leakage by the VacA TM Channel​](./06-proton-leakage)
 
-* `Dye_leakage_assay.xlsx`: The relative fluorescence in dye leakage assays.
-* `set1_a_150mMNaCl.xlsx`: The relative fluorescence in proton transport assays (with 150 mM NaCl).
-* `set1_b_withoutNaCl.xlsx`: The relative fluorescence in proton transport assays (without 150 mM NaCl).
-
+* `SRB/SRB_DOPC:Chol.xlsx`: The relative fluorescence of SRB-encapsulated DOPC:Chol (7:3) liposomes.
+* `SRB/SRB_DOPC:DOPA.xlsx`: The relative fluorescence of SRB-encapsulated DOPC:DOPA (7:3) liposomes.
+* `Pyranine/Pyranine_DOPC:Chol.xlsx`: The relative pyranine fluorescence of PBS-treated or VacA-treated DOPC:Chol (7:3) liposomes.
+* `Pyranine/Pyranine_DOPC:Chol.xlsx`: The relative pyranine fluorescence of PBS-treated or VacA-treated DOPC:DOPA (7:3) liposomes.
+* `Different_incubation_durations.xlsx`: The relative pyranine fluorescence of PBS-treated or VacA-treated DOPC:Chol (7:3) liposomes with different incubation durations.
 
 <!--* The following analysis were processed using GROMACS:
   - RMSD: `gmx rmsd`
