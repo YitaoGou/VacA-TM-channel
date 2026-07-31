@@ -56,14 +56,17 @@
   * win4:   6 ≤ *z* ≤ 22 Å;
   * win5:  20 ≤ *z* ≤ 47 Å;
 
+<!--
 * `./eABF/Cl-(Na+)/common/abf_res.mdp`: MD parameters for eABF.
 * `./eABF/Cl-(Na+)/common/index_abf.idx`: index files used in eABF.
 
 * `./eABF/Cl-(Na+)/win*/colvars.dat`: parameters of the eABF in the Colvars-patched GROMACS-2022.6.
 * `./eABF/Cl-(Na+)/win*/abf_initial.gro`: initial structure of eABF in specific windows.
-  
-* `./eABF/Cl-(Na+)/result/pmf.dat`: the raw PMF for Cl-/Na+.
-* `./eABF/Cl-(Na+)/result/pmf-interp.dat`: the PMF for Cl-/Na+ after imposing the condition 𝑤(-40)=𝑤(48)=0 through linear interpolation.
+-->
+
+* `./eABF/*ions*/pmf.dat`: the raw PMF for for specific ion.
+* `./eABF/*ions*/pmf-interp.dat`: the PMF for specific ion after imposing the condition 𝑤(-47)=𝑤(47)=0 through linear interpolation.
+* `./eABF/Bicarbonate-(Pyruvate-)/parameter`: Parameters for bicarbonate and pyruvate.
 
 ## [Stabilization of the TM channel by non-transmembrane segment of VacA](./05-VacA-1-422)
 
