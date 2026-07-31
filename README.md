@@ -49,12 +49,14 @@
 * `./E-field/input`: input files for MD simulations.
 
 #### Free energy calculation through eABF
+<!--
 * A stratification strategy used:
   * win1: -47 ≤ *z* ≤ -20 Å;
   * win2: -22 ≤ *z* ≤  -6 Å;
   * win3:  -8 ≤ *z* ≤ 8 Å;
   * win4:   6 ≤ *z* ≤ 22 Å;
   * win5:  20 ≤ *z* ≤ 47 Å;
+-->
 
 <!--
 * `./eABF/Cl-(Na+)/common/abf_res.mdp`: MD parameters for eABF.
