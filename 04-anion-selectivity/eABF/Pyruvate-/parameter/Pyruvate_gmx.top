@@ -1,0 +1,110 @@
+; Topology generated using molcal v1.0  
+; For use with CGenFF force-field version 4.6
+;
+; Include forcefield parameters
+#include "./charmm36.ff/forcefield.itp"
+;
+; Include ligand specific parameters
+# include "./charmm36.ff/Pyr_ffbonded.itp"
+;
+[ moleculetype ]
+; Name            nrexcl
+Other               3
+;
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 Pyr rtp Pyr  q -1.0
+     1      OG2D3      1    Pyr     O1      1     -0.488    15.9994   ; qtot -0.488
+     2      OG2D2      1    Pyr     O2      2     -0.695    15.9994   ; qtot -0.695
+     3      OG2D2      1    Pyr     O3      3     -0.695    15.9994   ; qtot -0.695
+     4      CG331      1    Pyr     C4      4     -0.287     12.011   ; qtot -0.287
+     5      CG2O5      1    Pyr     C5      5      0.259     12.011   ; qtot 0.259
+     6      CG2O3      1    Pyr     C6      6      0.636     12.011   ; qtot 0.636
+     7       HGA3      1    Pyr     H7      7       0.09      1.008   ; qtot 0.09
+     8       HGA3      1    Pyr     H8      8       0.09      1.008   ; qtot 0.09
+     9       HGA3      1    Pyr     H9      9       0.09      1.008   ; qtot 0.09
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     5     1
+    2     6     1
+    3     6     1
+    4     5     1
+    4     7     1
+    4     8     1
+    4     9     1
+    5     6     1
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1
+    1     3     1
+    1     7     1
+    1     8     1
+    1     9     1
+    2     4     1
+    3     4     1
+    6     7     1
+    6     8     1
+    6     9     1
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    5     4     7     5
+    5     4     8     5
+    5     4     9     5
+    7     4     8     5
+    7     4     9     5
+    8     4     9     5
+    1     5     4     5
+    1     5     6     5
+    4     5     6     5
+    2     6     3     5
+    2     6     5     5
+    3     6     5     5
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    7     4     5     1     9
+    7     4     5     6     9
+    8     4     5     1     9
+    8     4     5     6     9
+    9     4     5     1     9
+    9     4     5     6     9
+    1     5     6     2     9
+    1     5     6     3     9
+    4     5     6     2     9
+    4     5     6     3     9
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    5     6     4     1     2
+    6     2     3     5     2
+
+
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre.itp"
+#endif
+
+; Include water topology
+#include "./charmm36.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./charmm36.ff/ions.itp"
+
+[ system ]
+; Name
+    Ligand
+
+[ molecules ]
+; Compound        #mols
+Other           1

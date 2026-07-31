@@ -1,0 +1,7 @@
+REMARK FOR GROMPP
+ATOM      1 O1   BIC     1       1.390  -0.210   0.000  1.00  0.00      XXXX
+ATOM      2 O2   BIC     1      -0.924  -0.988   0.000  1.00  0.00      XXXX
+ATOM      3 O3   BIC     1      -0.521   1.191   0.000  1.00  0.00      XXXX
+ATOM      4 C4   BIC     1       0.054   0.008  -0.000  1.00  0.00      XXXX
+ATOM      5 H5   BIC     1       1.872   0.644   0.000  1.00  0.00      XXXX
+END
