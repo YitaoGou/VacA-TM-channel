@@ -1,5 +1,7 @@
 # Supplementary Information for Molecular Dynamics Simulations Reveal the Transmembrane Channel from the Vacuolating Toxin of *Helicobacter pylori*
 
+* `VacA_channel1_32.pdb`: the VacA hexameric TM channel (residues 1-32), after energy minimization.
+
 ## [The 1sew, extended 1sew and AF models](./00-1sew-AF)
 
 - `./1sew/initial.gro`: initial simulation structure of 1sew (after energy minimization and equilibrations).
@@ -20,8 +22,8 @@
 ## [A stable VacA channel that sustains rapid water permeation](./02-VacA-model)
 
 * `symm.tcl`: C6 rotational symmetrization.
-* `VacA_channel1_32.pdb`: the final VacA hexameric TM channel, after energy minimization.
-
+<!--* `VacA_channel1_32.pdb`: the final VacA hexameric TM channel, after energy minimization.
+-->
 #### MD simulations
 
 - `./input`: input files for MD simulations.
