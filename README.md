@@ -1,4 +1,4 @@
-# Supplementary Information for Molecular Dynamics Simulations Reveal the Transmembrane Channel from the Vacuolating Toxin of *Helicobacter pylori*
+# Supplementary Information for Molecular Dynamics-Guided Hierarchical Modeling of the *Helicobacter pylori*  
 
 * `VacA_channel1_32.pdb`: the VacA hexameric TM channel (residues 1-32), after energy minimization.
 
